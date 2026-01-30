@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Software Agency Dubai - Transform Your Business with AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3b82f6',
+                        secondary: '#8b5cf6',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body class="dark bg-gray-900 text-white">
+    <!-- Header -->
+    <header class="fixed top-0 w-full z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <div class="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                        <span class="text-xl font-bold">AI</span>
+                    </div>
+                    <span class="text-xl font-bold">Zayed Solution Develop</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="hover:text-blue-400 transition-colors">Home</a>
+                    <a href="#services" class="hover:text-blue-400 transition-colors">Services</a>
+                    <a href="#about" class="hover:text-blue-400 transition-colors">About</a>
+                    <a href="#contact" class="hover:text-blue-400 transition-colors">Contact</a>
+                    <a href="#contact" class="bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-2 rounded-lg hover:from-blue-600 hover:to-purple-700 transition-all">
+                        Get Started
+                    </a>
+                </div>
+                <button class="md:hidden text-white">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center pt-20 px-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-20">
+            <img 
+                src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1920&q=80&fit=crop&auto=format" 
+                alt="AI technology background" 
+                class="w-full h-full object-cover"
+            >
+        </div>
+        <div class="container mx-auto text-center relative z-10">
+            <div class="max-w-4xl mx-auto">
+                <div class="inline-block mb-6 px-4 py-2 bg-blue-500/10 border border-blue-500/30 rounded-full text-blue-400 text-sm font-medium">
+                    🚀 Leading AI Solutions in Dubai
+                </div>
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+                    Comprehensive Software Development &amp; Tech Support
+                    <span class="block mt-2">for your Business</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                    We build cutting-edge web applications and intelligent automation systems that drive growth and efficiency for businesses across Dubai and the UAE.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="#contact" class="bg-gradient-to-r from-blue-500 to-purple-600 px-8 py-4 rounded-lg text-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105 shadow-lg shadow-blue-500/50">
+                        Start Your Project
+                    </a>
+                    <a href="#services" class="border-2 border-gray-600 px-8 py-4 rounded-lg text-lg font-semibold hover:border-blue-500 hover:text-blue-400 transition-all">
+                        Explore Services
+                    </a>
+                </div>
+                <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="p-6 bg-gray-800/50 rounded-xl border border-gray-700">
+                        <div class="text-3xl font-bold text-blue-400 mb-2">100+</div>
+                        <div class="text-gray-400">Projects Delivered</div>
+                    </div>
+                    <div class="p-6 bg-gray-800/50 rounded-xl border border-gray-700">
+                        <div class="text-3xl font-bold text-purple-400 mb-2">50+</div>
+                        <div class="text-gray-400">Happy Clients</div>
+                    </div>
+                    <div class="p-6 bg-gray-800/50 rounded-xl border border-gray-700">
+                        <div class="text-3xl font-bold text-pink-400 mb-2">24/7</div>
+                        <div class="text-gray-400">Support Available</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 px-6 bg-gray-800">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Our Services</h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    Empowering businesses with innovative technology solutions
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- Web Apps Service -->
+                <div class="group bg-gray-900 p-8 rounded-2xl border border-gray-700 hover:border-blue-500 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/20 overflow-hidden relative">
+                    <div class="absolute top-0 right-0 w-32 h-32 opacity-10 group-hover:opacity-20 transition-opacity">
+                        <img 
+                            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=80&fit=crop&auto=format" 
+                            alt="Web development" 
+                            class="w-full h-full object-cover rounded-bl-full"
+                        >
+                    </div>
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform relative z-10">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-blue-400 relative z-10">Web Applications</h3>
+                    <p class="text-gray-400 mb-6 leading-relaxed relative z-10">
+                        Custom web applications built with modern technologies. From responsive frontends to robust backends, we create scalable solutions that grow with your business.
+                    </p>
+                    <ul class="space-y-2 text-gray-300 relative z-10">
+                        <li class="flex items-center">
+                            <span class="text-blue-400 mr-2">✓</span>
+                            React, Next.js, Vue.js Development
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-blue-400 mr-2">✓</span>
+                            Full-Stack Solutions
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-blue-400 mr-2">✓</span>
+                            Cloud Deployment & Scaling
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-blue-400 mr-2">✓</span>
+                            API Integration & Development
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- AI Automation Service -->
+                <div class="group bg-gray-900 p-8 rounded-2xl border border-gray-700 hover:border-purple-500 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/20 overflow-hidden relative">
+                    <div class="absolute top-0 right-0 w-32 h-32 opacity-10 group-hover:opacity-20 transition-opacity">
+                        <img 
+                            src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&q=80&fit=crop&auto=format" 
+                            alt="AI and automation" 
+                            class="w-full h-full object-cover rounded-bl-full"
+                        >
+                    </div>
+                    <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform relative z-10">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-purple-400 relative z-10">AI Automation</h3>
+                    <p class="text-gray-400 mb-6 leading-relaxed relative z-10">
+                        Intelligent automation systems that streamline operations, reduce costs, and enhance productivity. Leverage the power of AI to transform your workflows.
+                    </p>
+                    <ul class="space-y-2 text-gray-300 relative z-10">
+                        <li class="flex items-center">
+                            <span class="text-purple-400 mr-2">✓</span>
+                            Process Automation & RPA
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-purple-400 mr-2">✓</span>
+                            Machine Learning Solutions
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-purple-400 mr-2">✓</span>
+                            Chatbots & Virtual Assistants
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-purple-400 mr-2">✓</span>
+                            Data Analytics & Insights
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 px-6 bg-gray-900">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Portfolio</h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    A few examples of solutions we build for real business outcomes.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Project 1 -->
+                <div class="group bg-gray-800/40 rounded-2xl border border-gray-700 hover:border-emerald-500 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/10 overflow-hidden">
+                    <div class="p-8">
+                        <div class="w-14 h-14 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <!-- Chat Bubble Icon -->
+                            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h8M8 14h5m-6 6l-2 2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2H9l-2 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">AI Real Estate Bot</h3>
+                        <p class="text-gray-400 mb-6 leading-relaxed">
+                            A conversational assistant that qualifies leads, answers listing questions, and books viewings across WhatsApp and web chat.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="px-3 py-1 text-xs rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-300">Lead Qualification</span>
+                            <span class="px-3 py-1 text-xs rounded-full bg-gray-700/40 border border-gray-600 text-gray-200">WhatsApp</span>
+                            <span class="px-3 py-1 text-xs rounded-full bg-gray-700/40 border border-gray-600 text-gray-200">Automation</span>
+                        </div>
+                        <a href="ai-real-estate-bot.html" class="inline-flex items-center gap-2 bg-gradient-to-r from-emerald-500 to-teal-500 px-5 py-3 rounded-lg font-semibold hover:from-emerald-600 hover:to-teal-600 transition-all">
+                            View Project
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="group bg-gray-800/40 rounded-2xl border border-gray-700 hover:border-blue-500 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/10 overflow-hidden">
+                    <div class="p-8">
+                        <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <!-- Dashboard Icon -->
+                            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h18v18H3V3zm4 13h3V8H7v8zm7 0h3V5h-3v11z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">E-commerce Dashboard</h3>
+                        <p class="text-gray-400 mb-6 leading-relaxed">
+                            A unified admin dashboard for orders, inventory, customers, and revenue insights with role-based access and reporting.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="px-3 py-1 text-xs rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-300">Analytics</span>
+                            <span class="px-3 py-1 text-xs rounded-full bg-gray-700/40 border border-gray-600 text-gray-200">Orders</span>
+                            <span class="px-3 py-1 text-xs rounded-full bg-gray-700/40 border border-gray-600 text-gray-200">RBAC</span>
+                        </div>
+                        <a href="#contact" class="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-purple-600 px-5 py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all">
+                            View Project
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="group bg-gray-800/40 rounded-2xl border border-gray-700 hover:border-purple-500 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/10 overflow-hidden">
+                    <div class="p-8">
+                        <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <!-- Ticket Icon -->
+                            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8a2 2 0 012-2h14a2 2 0 012 2v3a2 2 0 010 4v3a2 2 0 01-2 2H5a2 2 0 01-2-2v-3a2 2 0 010-4V8zM8 10h8M8 14h6"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">IT Support Ticketing System</h3>
+                        <p class="text-gray-400 mb-6 leading-relaxed">
+                            A support portal for tracking incidents, SLAs, assignments, and knowledge-base articles with notifications and audit logs.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="px-3 py-1 text-xs rounded-full bg-purple-500/10 border border-purple-500/30 text-purple-300">SLA</span>
+                            <span class="px-3 py-1 text-xs rounded-full bg-gray-700/40 border border-gray-600 text-gray-200">Workflow</span>
+                            <span class="px-3 py-1 text-xs rounded-full bg-gray-700/40 border border-gray-600 text-gray-200">Support</span>
+                        </div>
+                        <a href="#contact" class="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-600 px-5 py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-pink-700 transition-all">
+                            View Project
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 px-6 bg-gray-900">
+        <div class="container mx-auto">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-4">About Us</h2>
+                    <p class="text-xl text-gray-400">
+                        Your trusted partner in digital transformation
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <div class="w-full h-64 rounded-2xl border border-gray-700 overflow-hidden mb-6 relative group">
+                            <img 
+                                src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80&fit=crop&auto=format" 
+                                alt="Dubai skyline at night" 
+                                class="w-full h-full object-cover brightness-75 group-hover:brightness-90 transition-all duration-300"
+                            >
+                            <div class="absolute inset-0 bg-gradient-to-t from-gray-900/60 to-transparent"></div>
+                            <div class="absolute bottom-4 left-4 text-white font-semibold">Dubai, UAE</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+                            Leading AI Innovation in the Middle East
+                        </h3>
+                        <p class="text-gray-300 mb-4 leading-relaxed">
+                            Based in the heart of Dubai, we are a specialized AI software agency dedicated to helping businesses harness the power of artificial intelligence and modern web technologies.
+                        </p>
+                        <p class="text-gray-300 mb-4 leading-relaxed">
+                            Our team of expert developers and AI specialists work closely with clients across various industries to deliver custom solutions that drive real business value. We combine cutting-edge technology with deep industry knowledge to create products that are not just functional, but transformative.
+                        </p>
+                        <p class="text-gray-300 leading-relaxed">
+                            Whether you're a startup looking to build your first AI-powered application or an enterprise seeking to automate complex processes, we have the expertise to bring your vision to life.
+                        </p>
+                        <div class="mt-8 flex flex-wrap gap-4">
+                            <div class="px-4 py-2 bg-gray-800 rounded-lg border border-gray-700">
+                                <span class="text-blue-400 font-semibold">Expert Team</span>
+                            </div>
+                            <div class="px-4 py-2 bg-gray-800 rounded-lg border border-gray-700">
+                                <span class="text-purple-400 font-semibold">Proven Track Record</span>
+                            </div>
+                            <div class="px-4 py-2 bg-gray-800 rounded-lg border border-gray-700">
+                                <span class="text-pink-400 font-semibold">Client-Focused</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-20 px-6 bg-gray-800">
+        <div class="container mx-auto">
+            <div class="max-w-2xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-4">Get In Touch</h2>
+                    <p class="text-xl text-gray-400">
+                        Ready to transform your business? Let's discuss your project
+                    </p>
+                </div>
+                <form
+                    id="contactForm"
+                    name="contact"
+                    method="POST"
+                    data-netlify="true"
+                    netlify-honeypot="bot-field"
+                    class="bg-gray-900 p-8 rounded-2xl border border-gray-700 shadow-2xl"
+                >
+                    <!-- Netlify Forms required fields -->
+                    <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden">
+                        <label>
+                            Don’t fill this out if you’re human: <input name="bot-field">
+                        </label>
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-300 mb-2">Full Name</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                required
+                                class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-500"
+                                placeholder="John Doe"
+                            >
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-300 mb-2">Email Address</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                required
+                                class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-500"
+                                placeholder="john@example.com"
+                            >
+                        </div>
+                        <div>
+                            <label for="company" class="block text-sm font-medium text-gray-300 mb-2">Company Name</label>
+                            <input 
+                                type="text" 
+                                id="company" 
+                                name="company"
+                                class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-500"
+                                placeholder="Your Company"
+                            >
+                        </div>
+                        <div>
+                            <label for="service" class="block text-sm font-medium text-gray-300 mb-2">Service Interested In</label>
+                            <select 
+                                id="service" 
+                                name="service"
+                                class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white"
+                            >
+                                <option value="">Select a service</option>
+                                <option value="web-apps">Web Applications</option>
+                                <option value="ai-automation">AI Automation</option>
+                                <option value="both">Both Services</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-300 mb-2">Project Details</label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                rows="5" 
+                                required
+                                class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-500 resize-none"
+                                placeholder="Tell us about your project..."
+                            ></textarea>
+                        </div>
+                        <div id="formMessage" class="hidden p-4 rounded-lg text-center font-medium"></div>
+                        <button 
+                            type="submit" 
+                            id="submitButton"
+                            class="w-full bg-gradient-to-r from-blue-500 to-purple-600 px-8 py-4 rounded-lg text-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105 shadow-lg shadow-blue-500/50 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                        >
+                            <span id="submitButtonText">Send Message</span>
+                            <span id="submitButtonLoader" class="hidden">Sending...</span>
+                        </button>
+                    </div>
+                </form>
+                <div class="mt-12 text-center text-gray-400">
+                    <p>Or reach us directly at:</p>
+                    <p class="mt-2 text-blue-400 font-semibold">zayed.online.trip@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-8 px-6">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center space-x-2 mb-4 md:mb-0">
+                    <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                        <span class="text-sm font-bold">AI</span>
+                    </div>
+                    <span class="font-semibold">Zayed Solution Develop</span>
+                </div>
+                <div class="text-gray-400 text-sm">
+                    © 2026 Zayed Solution Develop. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a
+        href="https://wa.me/201200098773?text=Hello%20Zayed%20AI,%20I%20want%20to%20discuss%20a%20project"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="whatsapp-float"
+        aria-label="Chat with Zayed AI on WhatsApp"
+    >
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:60px; height:60px;">
+    </a>
+
+    <!-- Smooth Scroll Script -->
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Netlify Forms note:
+        // - Netlify captures form submissions at build/deploy time.
+        // - Don’t intercept submit with JS, or Netlify won’t receive the POST.
+    </script>
+</body>
+</html>
